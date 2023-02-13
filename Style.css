@@ -5,6 +5,10 @@ body {
   padding: auto;
   margin: auto;
 }
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
 header {
   width: 100%;
@@ -133,6 +137,7 @@ footer {
   flex-direction: row;
 }
 footer img {
+  border-radius: 50%;
   width: 96px;
   height: 96px;
 }
