@@ -2,8 +2,8 @@ body {
   font-family: "Oswald", sans-serif;
   background-color: #f1f1f1;
   letter-spacing: 3px;
-  padding: auto;
-  margin: auto;
+  padding: 0;
+  margin: 0;
 }
 a {
   color: #ffffff;
@@ -14,13 +14,12 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-content: space-between;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: transparent;
   position: absolute;
   color: white;
-  padding: 10px;
+  margin: 10;
 }
 header ul {
   list-style: none;
@@ -120,6 +119,7 @@ header li {
 }
 .content_bild {
   width: 100%;
+  flex: 1;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("Images/pexels-markus-spiske-330771.jpg");
